@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: cicd-demo
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: cicd-demo
